@@ -31,3 +31,5 @@ $4 = 1
 (gdb) x/1bt &c
 0x7fffffffdc49:	01001010
 
+Ran hexdump on abc.txt file: 2d 36 37 33 30 20 36 38 2e 31 32 33 20 4a 
+command: hexdump -ve '/1 "%x "' abc.txt ; echo
